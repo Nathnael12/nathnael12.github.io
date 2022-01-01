@@ -1,0 +1,12 @@
+body {
+	background: #eeeeee;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.content {
+	display : flex;
+	flex-direction : column;
+	gap: 2rem;
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="resources/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <!-- 
+      Include useful CDN for styling
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merienda+One">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/About.css">
+    <link rel="stylesheet" href="css/Background.css">
+    <link rel="stylesheet" href="css/Contact.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/NavBar.css">
+    <link rel="stylesheet" href="css/Portfolio.css">
+    <link rel="stylesheet" href="css/Skills.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    
+    <title>Natnael M. Zerihun</title>
+  </head>
+  <body>
+      
+    <div id="root">
+        <div class="Home">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
+                <a href="#" class="navbar-brand"><i class="fa fa-cube"></i><b>Full-Stack</b>Developer</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+                    <div class="navbar-nav">
+                        <a onclick='onClicked("profile")'  class="page-navigator nav-item nav-link ">Profile</a>
+                        <a onclick='onClicked("skills")'  class="page-navigator nav-item nav-link">Skills</a>
+                        <a onclick='onClicked("portfolio")'  class="page-navigator nav-item nav-link">Portfolio</a>
+                        <a onclick='onClicked("background")'  class="page-navigator nav-item nav-link">Background</a>
+                        <a onclick='onClicked("contact")'  class="page-navigator nav-item nav-link">Contact</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="#" class="nav-item nav-link"><img src="resources/images/avatar.png" class="avatar" alt="Avatar"/> Natnael Masresha </a>
+                    </div>
+                </div>
+            </nav>
+        
+            <div id="profile" class="About container">
+                <div class="profile ">
+                    <div class="row profile-section">
+                        <div class=" col-md-5 text-center  ">
+                            <div class="profile-photo "><img src="resources/images/profile.jpg" width="440" height="320" alt="Natnael Masresha Zerihun"/></div>
+                        </div>
+                        <div class=" col-md-7">
+                            <div class="profile-info">
+                                <br />
+                                <div class="profile-preword"><span>Hey there!</span></div> <br />
+                                <div class="h4 profile-title"><span class="text-muted">I'm</span> <b> Natnael Masresha </b></div>
+
+                                <small class="profile-position">Full-Stack Web developer, Engineer and Freelancer</small></div>
+                                <table class="profile-list">
+                                    <tbody>
+                                    <tr>
+                                        <td>Email</td>
+                                        <td class="pl-2"><a class="text-muted" href="mailto:natnael.masresha2@gmail.com">natnael.masresha2@gmail.com</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone</td>
+                                        <td class="pl-2"><a class="text-muted" href="tel:+251912097394">+251 912 097 394</a></td>
+                                    </tr>
+                                    </tbody>
+                                    
+                                </table>
+
+                                <div class="profile-social">
+                                        <a class="ripple-centered" href="https://linkedin.com/in/natnael-masresha-39a69b185" target="_blank" rel="noreferrer"><i class="icon fa fa-linkedin"></i></a>
+                                        <a class="ripple-centered" href="mailto:natnael.masresha2@gmail.com" target="_blank" rel="noreferrer"><i class="icon fa fa-envelope"></i></a>
+                                        <a class="ripple-centered" href="https://www.github.com/Nathnael12" target="_blank" rel="noreferrer"><i class="icon fa fa-github"></i></a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="self-intro mt-4 text-center">
+                    Hello! I am Natnael M. Zerihun. An experienced web-developer, Electrical & Computer Engineer, and also a freelancer. I am very familiar with Microsoft.NET core, Laravel, and SQL database. I have built a bunch of websites. I also participated in the development of Automated irrigation system in Ethiopia. 
+                </div>
+                
+            </div>
+            
+            <div id="skills" class="skills container">
+                <nav class="text-center h1 title">
+                    My Skills
+                </nav>
+                <br />
+                <div class="w-75 mx-auto">
+                    <div class="border row rounded text-center p-2">
+                        <div class="col-md-4 text-center">
+                            <img class="skill-logo" src="resources/images/NET_Core_Logo.svg" alt="logo"  />
+                            <div class="description text-justify">
+                                I have Developed bunch of web-apps using .NET Core. 
+                                I have valuable experience with MVC pattern and Web API. 
+                                Recently I have developed a Learning Management System using this framework.
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img class="skill-logo" src="resources/images/laravel-logo.svg" alt="logo"  />
+                            <div class="description text-justify">
+                                Acquired vast knowledge and skills by developing a web-app using Laravel.
+                                I have developed a social web-app where subscribers can share tender/auction notices with each other. 
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img class="skill-logo" src="resources/images/database-logo.svg" alt="logo"  />
+                            <div class="description text-justify">
+                                I worked with vast and different kinds of databases. SQL, MySql and PostgreSQL are of my skills.
+                                I developed web applications and web APIs using those dbms.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class=" skill-list">
+                            React
+                        </div>
+                        <div class=" skill-list">
+                            .Net Core
+                        </div>
+                        <div class=" skill-list">
+                            Web API
+                        </div>
+                        <div class=" skill-list">
+                            Git
+                        </div>
+                        <div class=" skill-list">
+                            C++
+                        </div>
+                        <div class=" skill-list">
+                            C
+                        </div>
+                        <div class=" skill-list">
+                            Data Engineering
+                        </div>
+                        <div class=" skill-list">
+                            Azure
+                        </div>
+                        <div class=" skill-list">
+                            Pandas
+                        </div>
+                        <div class=" skill-list">
+                            C#
+                        </div>
+                        <div class=" skill-list">
+                            MySQL
+                        </div>
+                        <div class=" skill-list">
+                            SQL
+                        </div>
+                        <div class=" skill-list">
+                            PostgreSQL
+                        </div>
+                        
+                        <div class=" skill-list">
+                            Java script
+                        </div>
+                        <div class=" skill-list">
+                            TDD
+                        </div>
+                        <div class=" skill-list">
+                            SASS
+                        </div>
+                        <div class=" skill-list">
+                            MVC
+                        </div>
+                        <div class=" skill-list">
+                            CSS
+                        </div>
+                        <div class=" skill-list">
+                            jQuery
+                        </div>
+                        <div class=" skill-list">
+                            BootStrap
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <br /><br /><br />
+                </div>
+                
+            </div>
+
+            <div id="portfolio" class="portfolio container text-center">
+                <nav class="text-center h1 title">
+                    Portfolio
+                </nav>
+                <p>Here are some of the projects I've been working with lately. Please contact me for more details!</p>
+                <div class="flex-grid portfolio-list">
+    
+                    <div class="portfolio-first text-left">
+                        <div class="portfolio-description">CNET LMS is a web application for the administration, documentation, tracking, reporting,
+                             automation and delivery of educational courses, training programs, or learning and development programs.
+                             CNET LMS includes . . .
+                             <ul class="  pt-2 ">
+                                 <li>Content Delivery of Course Materials</li>
+                                 <li>Assessment Delivery for Users</li>
+                                 <li>Provides visual data/report of users</li>
+                             </ul>
+                            <a class=" lms-link btn btn-sm btn-primary px-3" target="_blank" href="https://e-learning.cneterp.com" rel="noreferrer"><span class=" fa fa-eye"> Visit </span></a>
+                        </div>
+                    </div>
+    
+                    <div class="portfolio-row">
+                        <div class="portfolio-second text-justify">
+                            <div class="portfolio-description">Abay Tender is one of my works. The largest tender informative site of Ethiopia. 
+                            It provides reliable tender and auction notices. A subscription-based service and registered subscribers get enormous 
+                            benefits from a yearly Subscription fee. For the evaluation purpose, a 30 days Free Subscription is also available. 
+                            <br /> Built by the Laravel Frame-work!
+                            </div>
+                        </div>
+                        <div class="portfolio-third text-justify">
+                            <div class="portfolio-description">A project performed on Analysis of natural factors leading to car accident. 
+                            Analyses the amount of accidents by Month, Weather, Sex, Season and Year. 
+                            This analysis will eventually calculate the chance that an accident will happen based on a given factor.
+                            <br />
+                            I delivered this project for <a href="https://gebeya.training/" class="bg-white" target="_blank" rel="noreferrer">Gebeya It Accademy</a> 
+                            <br />
+                            <a class="data-engineering-link btn btn-sm btn-primary mt-4" target="_blank" href="https://github.com/Nathnael12/data_engineering_for_car_accident" rel="noreferrer"><span class=" fa fa-link"> GitHub link</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="background" class="background container">
+                <nav class="text-center h1 title">
+                    Background
+                </nav>
+                <div class="background-content text-justify">
+                I am Experienced Web Developer with a demonstrated history of working
+                in the internet industry. Skilled in Mathematics, Adobe Photoshop, Gaming,
+                Object-Oriented Programming (OOP), and Web Development. I acquired strong engineering 
+                professional. I graduated from Addis Ababa Institute of Technology with a Bachelor's degree of 
+                Electrical and Computer Engineering.
+    
+                I do qualified tasks and meet deadlines. I have developed an electric
+                wheelchair (a prototype) that can climb upstairs. I can start
+                a new project for you or continue to work on an existing one. I would be happy
+                to work with your existing team or work on my own. 
+                <br>
+                Looking Forward to hearing from you! 
+                </div>
+                <br />
+                <div class="background-content text-left">
+                    <nav class="text-left h3">
+                        My interests
+                    </nav>
+                    <div class="interest-wrap">
+                        <div class="interest-inner-wrap">
+                            <ul class="interests">
+                                <li>Programming</li>
+                                <li>Photography</li>
+                            </ul>
+    
+                            <ul class="interests">
+                                <li>Adobe PS</li>
+                                <li>Gaming</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="interest-inner-wrap">
+                            <ul class="interests">
+                                <li>Movie</li>
+                                <li>Puzzles</li>
+                            </ul>
+    
+                            <ul class="interests">
+                                <li>Mathematics &</li>
+                                <li>Physics</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="text-center my-5">
+                 <a href="" id="downloadCV" onclick="downloadCV()" class="btn  btn-secondary" download><span class="fa fa-download"></span> Download CV</a>
+                </div>
+            </div>
+
+            <div class="">
+                <div id="contact" class="contact container">
+                    <div class="contact-wrap">
+                        <div class="connect-animation text-center">
+                            <a target="_blank" rel="noreferrer"  href="mailto:natnael.masresha2@gmail.com" class="icons"> <span class=" fa fa-2x fa-envelope-o">&nbsp;</span> </a>
+                            <a target="_blank" rel="noreferrer"  href="https://twitter.com/natnaelmasresha" class="icons"> <span class=" fa fa-2x fa-twitter">&nbsp;</span> </a>
+                            <a href="tel:+251912097394" class="icons"> <span class=" fa fa-2x fa-phone">&nbsp;</span> </a>
+                            <a target="_blank" rel="noreferrer"  href="https://www.github.com/Nathnael12" class="icons"> <span class=" fa fa-2x fa-github">&nbsp;</span> </a>
+                            <a target="_blank" rel="noreferrer"  href="https://t.me/NathnaelM" class="icons"> <span class=" fa fa-2x fa-paper-plane">&nbsp;</span> </a>
+                            <a target="_blank" rel="noreferrer"  href="https://linkedin.com/in/natnael-masresha-39a69b185" class="icons"> <span class=" fa fa-2x fa-linkedin">&nbsp;</span> </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="connect-info mt-5 bg-secondary text-white py-2">
+                        <span>Natnael Masresha Zerihun</span>
+                        <span>natnael.masresha2@gmail.com</span>
+                        <span>+251 912 097 394</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </body>
+  <script src="js/index.js"></script>
+</html>

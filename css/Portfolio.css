@@ -1,0 +1,137 @@
+.portfolio-list{
+  height: 500px;
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.portfolio-first {
+  height: 47%;
+  width: 100%;
+  background-image: url("../resources/images/LMS.PNG");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transition: 1s ease;
+  
+}
+.portfolio-first:hover{
+  background-size: 103%;
+  /* filter: blur(1px); */
+}
+
+.portfolio-row {
+  display: flex;
+  justify-content: space-between;
+  height: 49%;
+  width: 100%;
+}
+
+.portfolio-second {
+  height: 100%;
+  width: 49%;
+  background-image: url("../resources/images/AbayTender.PNG");
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  transition: 1s ease;
+}
+
+.portfolio-second:hover{
+    background-size: 115%;
+}
+
+.portfolio-third {
+  height: 100%;
+  width: 49%;
+  background-image: url("../resources/images/data-engineering.png");
+  background-position: center;
+  background-size: 100%;
+  border: 1px solid white ;
+  background-repeat: no-repeat;
+  transition: 1s ease;
+}
+.portfolio-third:hover{
+  background-size: 103%;
+}
+
+@media (max-width: 1200px){
+  .portfolio-list{
+    height: 750px;
+  }
+  .portfolio-description{
+    font-size: small;
+  }
+  .portfolio-first {
+    height: 33%;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+
+  .portfolio-row {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 66%;
+    gap: 1.5152%;
+  }
+  
+  .portfolio-second {
+    width: 100%;
+    height: 50%;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  
+  .portfolio-third {
+    width: 100%;
+    height: 50%;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  
+}
+.portfolio-description{
+  height: 100%;
+  width: 100%;
+  background-color:#000000c2 ;
+  color: white;
+  padding: 5%;
+  font-family: monospace;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+ transform: translateY(10%);
+ position: relative;
+ /* min-width: 440px; */
+}
+.lms-link,.data-engineering-link{
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+.portfolio-description:hover{
+opacity: 1;
+transform: translateY(0%);
+}
+.portfolio-description > ul li{
+  transform: translateY(2rem);
+  opacity: 0;
+}
+.portfolio-description > ul li:nth-child(1){
+  transition: all 0.5s ease 0s;
+  
+}
+.portfolio-description > ul li:nth-child(2){
+  transition: all 0.5s ease 0.2s;
+  
+}
+.portfolio-description > ul li:nth-child(3){
+  transition: all 0.5s ease 0.4s;
+  
+}
+.portfolio-description:hover > ul li{
+  transform: translateY(0rem);
+  opacity: 1;
+}

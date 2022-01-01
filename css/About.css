@@ -1,0 +1,63 @@
+.About{
+    margin: 7rem auto 0 auto;
+    /* max-width: 750px; */
+}
+.profile{
+    box-shadow: 0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.24);
+    background-color: #fff;
+    padding: 1rem;
+}
+.profile-photo img{
+    object-fit: cover;
+    object-position: top;
+}
+@media (max-width: 1228px  ) {
+	.profile-photo img{
+        width: 100%; 
+	}
+}
+.profile-preword{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(72, 89, 90);
+    
+}
+.profile-title {
+    font-family: 'Roboto Mono', monospace;
+}
+.profile-position{
+    font-family: 'Roboto Mono', monospace;
+    color: darkblue;
+}
+.profile-list{
+    margin-top: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+.profile-social{
+    background-color: rgb(72, 89, 90);
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.social{
+    width: 50%;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+.profile-social a{
+    font-size: x-large;
+    color: #eeeeee;
+}
+.self-intro{
+    max-width: 85%;
+    margin: 0 auto;
+    font-family: 'Josefin Slab', serif;
+    font-size: large;
+}
